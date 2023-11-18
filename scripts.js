@@ -9,7 +9,7 @@ function buy(){
         product_name : product_name,
         price : 997000
     }
-    tg.sendData(JSON(data));
+    tg.sendData(JSON.stringify(data));
 
     tg.close();
 }
